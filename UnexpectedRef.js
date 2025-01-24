@@ -1,0 +1,1 @@
+This error occurs when using the `useRef` hook in React Native with a function component.  The `current` property of the ref is sometimes unexpectedly undefined, leading to unexpected behavior or crashes. This often happens when the component re-renders before the ref has been properly assigned. The ref might point to a stale component instance.
